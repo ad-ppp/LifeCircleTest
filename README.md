@@ -12,6 +12,7 @@
 2019-05-08 19:14:10.352 25708-25708/com.example.lifecircletest D/TransparentActivity: onPause 143715848
 2019-05-08 19:14:10.394 25708-25708/com.example.lifecircletest D/TransparentActivity: onResume 228742206
 2019-05-08 19:14:10.405 25708-25708/com.example.lifecircletest D/TransparentActivity: onStop 143715848
+
 可以发现：
     启动B页面A页面的 onStop 没有回调
     B 页面finish 时，A 页面的 onStart 也没有回调
