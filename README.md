@@ -6,11 +6,14 @@
 1. 半透明 Theme
 
 ```
+// A 启动
 2019-05-08 19:13:50.631 25708-25708/com.example.lifecircletest D/TransparentActivity: onStart 228742206
 2019-05-08 19:13:50.633 25708-25708/com.example.lifecircletest D/TransparentActivity: onResume 228742206
+// A->B
 2019-05-08 19:13:59.565 25708-25708/com.example.lifecircletest D/TransparentActivity: onPause 228742206
 2019-05-08 19:13:59.599 25708-25708/com.example.lifecircletest D/TransparentActivity: onStart 143715848
 2019-05-08 19:13:59.601 25708-25708/com.example.lifecircletest D/TransparentActivity: onResume 143715848
+// B finish
 2019-05-08 19:14:10.352 25708-25708/com.example.lifecircletest D/TransparentActivity: onPause 143715848
 2019-05-08 19:14:10.394 25708-25708/com.example.lifecircletest D/TransparentActivity: onResume 228742206
 2019-05-08 19:14:10.405 25708-25708/com.example.lifecircletest D/TransparentActivity: onStop 143715848
